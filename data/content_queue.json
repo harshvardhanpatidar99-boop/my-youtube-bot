@@ -1,58 +1,5 @@
 [
   {
-    "id": "f7a3e59d-c908-4454-88a7-f4ae4c538c70",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Explore the mind-bending phenomenon of quantum levitation",
-    "tags": [
-      "Quantum Physics",
-      "Levitation",
-      "Science Experiments",
-      "Gravity",
-      "Magnetic Fields",
-      "Superconductors",
-      "Quantum Mechanics",
-      "Innovation"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a world where gravity no longer applies",
-        "visual_keyword": "Futuristic Cityscape"
-      },
-      {
-        "narration": "Welcome to the world of quantum levitation",
-        "visual_keyword": "Superconductor Experiments"
-      },
-      {
-        "narration": "This phenomenon occurs when a superconductor is cooled",
-        "visual_keyword": "Cryogenic Lab"
-      },
-      {
-        "narration": "And placed in a magnetic field strong enough",
-        "visual_keyword": "Magnetic Field Visuals"
-      },
-      {
-        "narration": "To suspend objects in mid-air",
-        "visual_keyword": "Levitating Objects"
-      },
-      {
-        "narration": "Defying gravity and pushing the boundaries of science",
-        "visual_keyword": "Scientists Working Together"
-      },
-      {
-        "narration": "The possibilities are endless in this quantum realm",
-        "visual_keyword": "Quantum Physics Equations"
-      },
-      {
-        "narration": "Where the laws of physics are rewritten daily",
-        "visual_keyword": "Innovative Technology"
-      }
-    ],
-    "created_at": "2026-07-27T09:39:57.476777+00:00"
-  },
-  {
     "id": "31f23c8b-45c5-4c25-9f63-f4a87808c817",
     "format": "short",
     "niche": "science experiments explained",
