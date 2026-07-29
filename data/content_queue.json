@@ -1,51 +1,5 @@
 [
   {
-    "id": "079f1682-668d-4bbd-a808-0d15857f2e7d",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Create Singularity",
-    "description": "A science experiment that creates a mini black hole in a jar",
-    "tags": [
-      "singularity",
-      "black hole",
-      "experiment",
-      "science",
-      "physics",
-      "jar",
-      "creation",
-      "miniature",
-      "cosmos"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Scientists can create a singularity in a jar",
-        "visual_keyword": "Lab Equipment"
-      },
-      {
-        "narration": "Using a superfluid",
-        "visual_keyword": "Liquid Nitrogen"
-      },
-      {
-        "narration": "That behaves like a black hole",
-        "visual_keyword": "Space Vortex"
-      },
-      {
-        "narration": "It warps space and time",
-        "visual_keyword": "Time Dilation"
-      },
-      {
-        "narration": "Around a tiny point",
-        "visual_keyword": "Mini Black Hole"
-      },
-      {
-        "narration": "Defying the laws of gravity",
-        "visual_keyword": "Gravity Waves"
-      }
-    ],
-    "created_at": "2026-07-28T13:31:36.063043+00:00"
-  },
-  {
     "id": "957d0b8a-edb7-4605-9819-70f69f825d4a",
     "format": "short",
     "niche": "science experiments explained",
