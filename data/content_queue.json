@@ -1,54 +1,5 @@
 [
   {
-    "id": "2c1afa1b-da30-4b5d-9d07-3ebcf0687f0d",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Singularity Explosion",
-    "description": "Creating a mini black hole in a jar",
-    "tags": [
-      "Singularity",
-      "Black Hole",
-      "Science Experiment",
-      "Jar Singularity",
-      "Space",
-      "Physics",
-      "Cosmology",
-      "Science"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a void so dense not even light escapes",
-        "visual_keyword": "Black Hole Visualization"
-      },
-      {
-        "narration": "This is a singularity",
-        "visual_keyword": "Singularity Diagram"
-      },
-      {
-        "narration": "We can create a mini version in a jar",
-        "visual_keyword": "Jar Experiment Setup"
-      },
-      {
-        "narration": "Using a superfluid and a magnet",
-        "visual_keyword": "Magnet And Fluid"
-      },
-      {
-        "narration": "The result is a miniature black hole",
-        "visual_keyword": "Mini Black Hole"
-      },
-      {
-        "narration": "That warps space and time",
-        "visual_keyword": "Space Time Warping"
-      },
-      {
-        "narration": "And explodes in a burst of energy",
-        "visual_keyword": "Energy Explosion"
-      }
-    ],
-    "created_at": "2026-07-28T13:31:30.203552+00:00"
-  },
-  {
     "id": "079f1682-668d-4bbd-a808-0d15857f2e7d",
     "format": "short",
     "niche": "science experiments explained",
