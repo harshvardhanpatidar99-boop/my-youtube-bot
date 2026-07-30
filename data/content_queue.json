@@ -1,52 +1,5 @@
 [
   {
-    "id": "b53b3db7-7874-49d5-8f05-bec012ae5d09",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Discover the bizarre properties of superfluids",
-    "tags": [
-      "superfluids",
-      "liquid helium",
-      "quantum mechanics",
-      "gravity",
-      "science experiments",
-      "physics"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a liquid that can defy gravity",
-        "visual_keyword": "liquid helium"
-      },
-      {
-        "narration": "This is superfluidity",
-        "visual_keyword": "superfluid flow"
-      },
-      {
-        "narration": "A state where liquids behave like gases",
-        "visual_keyword": "gas molecules"
-      },
-      {
-        "narration": "But with zero viscosity",
-        "visual_keyword": "viscosity experiment"
-      },
-      {
-        "narration": "Allowing them to climb up walls",
-        "visual_keyword": "superfluid wall climb"
-      },
-      {
-        "narration": "And even escape containers",
-        "visual_keyword": "superfluid container escape"
-      },
-      {
-        "narration": "The result is a liquid that can flow forever",
-        "visual_keyword": "superfluid flow loop"
-      }
-    ],
-    "created_at": "2026-07-29T20:14:55.190794+00:00"
-  },
-  {
     "id": "5a3c980a-b083-4257-88b9-15903d8f4103",
     "format": "short",
     "niche": "science experiments explained",
