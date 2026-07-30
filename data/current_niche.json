@@ -1,0 +1,115 @@
+{
+  "niche": "true crime facts",
+  "momentum": 3.0,
+  "recent_competition": 59335,
+  "typical_recent_views": 19347,
+  "opportunity_score": 2.6942,
+  "chosen_at": "2026-07-30T17:23:30.404419+00:00",
+  "all_scores": [
+    {
+      "niche": "true crime facts",
+      "momentum": 3.0,
+      "recent_competition": 59335,
+      "typical_recent_views": 19347,
+      "opportunity_score": 2.6942
+    },
+    {
+      "niche": "space and astronomy facts",
+      "momentum": 1.353,
+      "recent_competition": 105823,
+      "typical_recent_views": 72209,
+      "opportunity_score": 1.3083
+    },
+    {
+      "niche": "science experiments explained",
+      "momentum": 1.0,
+      "recent_competition": 66156,
+      "typical_recent_views": 132505,
+      "opportunity_score": 1.0626
+    },
+    {
+      "niche": "geography and maps facts",
+      "momentum": 1.0,
+      "recent_competition": 118207,
+      "typical_recent_views": 202580,
+      "opportunity_score": 1.0461
+    },
+    {
+      "niche": "tech gadget reviews",
+      "momentum": 1.0,
+      "recent_competition": 178238,
+      "typical_recent_views": 161734,
+      "opportunity_score": 0.992
+    },
+    {
+      "niche": "psychology facts",
+      "momentum": 1.0,
+      "recent_competition": 241082,
+      "typical_recent_views": 169571,
+      "opportunity_score": 0.9716
+    },
+    {
+      "niche": "stoic philosophy motivation",
+      "momentum": 1.0,
+      "recent_competition": 77736,
+      "typical_recent_views": 55621,
+      "opportunity_score": 0.9703
+    },
+    {
+      "niche": "productivity and self improvement",
+      "momentum": 1.0,
+      "recent_competition": 187444,
+      "typical_recent_views": 101109,
+      "opportunity_score": 0.9492
+    },
+    {
+      "niche": "unsolved mysteries",
+      "momentum": 0.927,
+      "recent_competition": 65041,
+      "typical_recent_views": 45690,
+      "opportunity_score": 0.8975
+    },
+    {
+      "niche": "history mysteries",
+      "momentum": 0.824,
+      "recent_competition": 172685,
+      "typical_recent_views": 106183,
+      "opportunity_score": 0.7908
+    },
+    {
+      "niche": "animal facts",
+      "momentum": 0.565,
+      "recent_competition": 1000000,
+      "typical_recent_views": 1814499,
+      "opportunity_score": 0.5894
+    },
+    {
+      "niche": "health and longevity facts",
+      "momentum": 1.0,
+      "recent_competition": 614584,
+      "typical_recent_views": 2411,
+      "opportunity_score": 0.5846
+    },
+    {
+      "niche": "personal finance tips",
+      "momentum": 0.601,
+      "recent_competition": 160352,
+      "typical_recent_views": 67955,
+      "opportunity_score": 0.558
+    },
+    {
+      "niche": "AI news explained",
+      "momentum": 0.663,
+      "recent_competition": 885042,
+      "typical_recent_views": 90833,
+      "opportunity_score": 0.5528
+    },
+    {
+      "niche": "mythology and folklore",
+      "momentum": 0.739,
+      "recent_competition": 69277,
+      "typical_recent_views": 3072,
+      "opportunity_score": 0.5326
+    }
+  ]
+}

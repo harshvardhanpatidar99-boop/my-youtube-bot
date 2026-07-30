@@ -1,1 +1,136 @@
-[]
+[
+  {
+    "id": "16ffc292-d651-41f0-81cb-a5c65fcfea04",
+    "format": "short",
+    "niche": "true crime facts",
+    "title": "Crime Hidden",
+    "description": "Discover the dark side of crime statistics",
+    "tags": [
+      "true crime",
+      "crime facts",
+      "dark figure",
+      "hidden crimes",
+      "crime statistics",
+      "underreported crimes",
+      "crime data",
+      "criminal justice"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Most crimes go unreported, a phenomenon known as the dark figure",
+        "visual_keyword": "crime scene tape"
+      },
+      {
+        "narration": "This means that crime rates are actually much higher than we think",
+        "visual_keyword": "police lights flashing"
+      },
+      {
+        "narration": "The dark figure includes crimes like domestic abuse and sexual assault",
+        "visual_keyword": "silhouette of person hiding"
+      },
+      {
+        "narration": "These crimes often go unreported due to fear or shame",
+        "visual_keyword": "person whispering"
+      },
+      {
+        "narration": "The dark figure is a stark reminder that crime is more prevalent than we realize",
+        "visual_keyword": "city streets at night"
+      },
+      {
+        "narration": "And the truth is, you're more likely to be a victim than you think",
+        "visual_keyword": "person looking over shoulder"
+      }
+    ],
+    "created_at": "2026-07-30T17:23:40.676437+00:00"
+  },
+  {
+    "id": "3c6aeafa-0ab7-4cb3-bdb3-236885c1b80d",
+    "format": "short",
+    "niche": "true crime facts",
+    "title": "Killer in Plain Sight",
+    "description": "Explore the dark figure of unreported crimes",
+    "tags": [
+      "true crime",
+      "dark figure",
+      "unreported crimes",
+      "crime statistics",
+      "criminology",
+      "justice system",
+      "law enforcement",
+      "crime rates"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Most murders go unnoticed",
+        "visual_keyword": "dark alley"
+      },
+      {
+        "narration": "Hidden from the public eye",
+        "visual_keyword": "shadows on wall"
+      },
+      {
+        "narration": "These crimes are known as the dark figure",
+        "visual_keyword": "silhouette figure"
+      },
+      {
+        "narration": "A staggering number of murders are never reported",
+        "visual_keyword": "police crime scene"
+      },
+      {
+        "narration": "The real crime rate is much higher than we think",
+        "visual_keyword": "crime graph rising"
+      },
+      {
+        "narration": "And the killer may be living right next door",
+        "visual_keyword": "suburban neighborhood"
+      }
+    ],
+    "created_at": "2026-07-30T17:23:46.801359+00:00"
+  },
+  {
+    "id": "cb37457b-c190-4808-beb9-47a53a5ec3f0",
+    "format": "short",
+    "niche": "true crime facts",
+    "title": "Killer in Shadows",
+    "description": "Exploring the darker side of true crime statistics",
+    "tags": [
+      "true crime",
+      "dark figure",
+      "crime stats",
+      "murder rates",
+      "serial killers",
+      "criminal justice",
+      "crime data"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Most murders go unreported",
+        "visual_keyword": "crime scene tape"
+      },
+      {
+        "narration": "Known as the dark figure of crime",
+        "visual_keyword": "shadowy figure"
+      },
+      {
+        "narration": "It's a hidden world of violence",
+        "visual_keyword": "dark alleyways"
+      },
+      {
+        "narration": "Where killers operate in silence",
+        "visual_keyword": "silence soundwave"
+      },
+      {
+        "narration": "And the truth is rarely revealed",
+        "visual_keyword": "sealed evidence box"
+      },
+      {
+        "narration": "Until it's too late and justice fails",
+        "visual_keyword": "courtroom gavel"
+      }
+    ],
+    "created_at": "2026-07-30T17:23:52.791108+00:00"
+  }
+]
