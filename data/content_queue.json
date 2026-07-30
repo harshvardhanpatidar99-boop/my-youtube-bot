@@ -1,47 +1,221 @@
 [
   {
-    "id": "5a3c980a-b083-4257-88b9-15903d8f4103",
+    "id": "9fa16598-d1aa-4858-8042-81fc5a3d1402",
+    "format": "longform",
+    "niche": "science experiments explained",
+    "title": "Supercritical Fluids",
+    "description": "Ever wondered how scientists can create materials with unique properties? This video explores the fascinating world of supercritical fluids and their applications. From improving pharmaceuticals to enhancing energy production, supercritical fluids are revolutionizing various industries through advanced materials science and nanotechnology.",
+    "tags": [
+      "supercritical fluids",
+      "materials science",
+      "nanotechnology",
+      "pharmaceuticals",
+      "energy production",
+      "green technology",
+      "sustainable materials",
+      "advanced materials",
+      "fluid dynamics",
+      "high pressure"
+    ],
+    "hook": "Supercritical fluids are mysterious states of matter that can diffuse like gases and dissolve like liquids. By harnessing their power, scientists can create materials with unprecedented properties, but what exactly are supercritical fluids and how do they work?",
+    "scenes": [
+      {
+        "narration": "To understand supercritical fluids, we need to revisit the fundamentals of phase transitions and the properties of gases, liquids, and solids. The phase diagram is a crucial tool in this journey, helping us visualize the transitions between these states.",
+        "visual_keyword": "phase diagram animation"
+      },
+      {
+        "narration": "At the critical point, the distinction between liquid and vapor phases disappears, and the fluid becomes supercritical. This state is characterized by unique properties, such as gas-like diffusion and liquid-like density.",
+        "visual_keyword": "critical point illustration"
+      },
+      {
+        "narration": "One of the most fascinating applications of supercritical fluids is in the field of pharmaceuticals. By using supercritical carbon dioxide, scientists can create nanoparticles of drugs with improved bioavailability and targeted delivery.",
+        "visual_keyword": "pharmaceutical lab equipment"
+      },
+      {
+        "narration": "The process involves dissolving the drug in supercritical carbon dioxide, which then expands and precipitates the drug in a nanoparticle form. This method can enhance the efficacy of drugs and reduce side effects.",
+        "visual_keyword": "nanoparticle formation animation"
+      },
+      {
+        "narration": "Supercritical fluids also play a crucial role in energy production, particularly in the extraction of fossil fuels. By injecting supercritical carbon dioxide into oil reservoirs, engineers can enhance oil recovery and reduce the environmental impact of extraction.",
+        "visual_keyword": "oil rig operation"
+      },
+      {
+        "narration": "In addition to fossil fuels, supercritical fluids are being explored for their potential in renewable energy applications. For instance, supercritical carbon dioxide can be used as a working fluid in advanced power cycles, improving the efficiency of solar and geothermal power plants.",
+        "visual_keyword": "solar power plant"
+      },
+      {
+        "narration": "The unique properties of supercritical fluids make them ideal for cleaning and purification processes. Supercritical carbon dioxide is a popular choice for dry cleaning clothes, as it is non-toxic and environmentally friendly.",
+        "visual_keyword": "dry cleaning equipment"
+      },
+      {
+        "narration": "In the field of materials science, supercritical fluids are used to create advanced materials with tailored properties. By manipulating the conditions of supercritical fluids, scientists can fabricate nanoparticles, nanowires, and other nanostructures with specific functions.",
+        "visual_keyword": "nanomaterials lab"
+      },
+      {
+        "narration": "The applications of supercritical fluids extend to the food industry, where they are used for extraction, purification, and preservation of natural products. Supercritical carbon dioxide can extract valuable compounds from plants, such as antioxidants and flavorings.",
+        "visual_keyword": "food processing plant"
+      },
+      {
+        "narration": "One of the most promising aspects of supercritical fluids is their potential to replace traditional solvents in various industrial processes. By using supercritical carbon dioxide, companies can reduce their environmental footprint and comply with stricter regulations.",
+        "visual_keyword": "industrial solvent storage"
+      },
+      {
+        "narration": "Despite the many advantages of supercritical fluids, there are still challenges to overcome. The high pressure and temperature requirements of supercritical fluids demand specialized equipment and expertise.",
+        "visual_keyword": "high pressure equipment"
+      },
+      {
+        "narration": "To address these challenges, researchers are developing new technologies and methods for working with supercritical fluids. These innovations will unlock the full potential of supercritical fluids and enable their widespread adoption.",
+        "visual_keyword": "research laboratory"
+      },
+      {
+        "narration": "As scientists continue to explore the properties and applications of supercritical fluids, we can expect to see significant advancements in various fields. From energy and pharmaceuticals to materials science and food production, supercritical fluids are poised to revolutionize numerous industries.",
+        "visual_keyword": "future technology concept"
+      },
+      {
+        "narration": "The journey into the world of supercritical fluids is a fascinating one, full of surprises and opportunities. By understanding and harnessing the power of these mysterious states of matter, we can create a more sustainable and innovative future.",
+        "visual_keyword": "supercritical fluid animation"
+      },
+      {
+        "narration": "In conclusion, supercritical fluids are a game-changer for various industries, offering unique properties and applications that can transform the way we live and work. As research continues to uncover the secrets of supercritical fluids, we can expect to see groundbreaking innovations and discoveries.",
+        "visual_keyword": "innovation hub"
+      }
+    ],
+    "created_at": "2026-07-30T20:16:59.785595+00:00"
+  },
+  {
+    "id": "e2e6dc61-e70f-46a5-9dea-f8c604406da4",
     "format": "short",
     "niche": "science experiments explained",
-    "title": "Liquid Defies Gravity",
-    "description": "Discover the bizarre world of superfluids",
+    "title": "Exploding Liquids",
+    "description": "Discover the power of supercritical fluids in a unique state of matter",
     "tags": [
-      "superfluids",
-      "science",
-      "experiments",
-      "gravity",
-      "liquids",
-      "quantum physics",
-      "physics",
-      "science experiments"
+      "Supercritical Fluids",
+      "Science Experiments",
+      "Liquid State",
+      "Matter Phases",
+      "Physics",
+      "Chemistry",
+      "Pressure",
+      "Temperature",
+      "Critical Point"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "Liquid defies gravity, what's going on here?",
-        "visual_keyword": "superfluid helium"
+        "narration": "Liquids can explode under extreme pressure",
+        "visual_keyword": "explosion footage"
       },
       {
-        "narration": "It's a superfluid, a state of matter where liquids behave like gases",
-        "visual_keyword": "liquid nitrogen"
+        "narration": "When a liquid is compressed to its critical point",
+        "visual_keyword": "pressure gauge"
       },
       {
-        "narration": "With zero viscosity, it can flow uphill",
-        "visual_keyword": "superfluid flow"
+        "narration": "it becomes a supercritical fluid with unique properties",
+        "visual_keyword": "fluid dynamics"
       },
       {
-        "narration": "And climb up walls, against gravity",
-        "visual_keyword": "defying gravity"
+        "narration": "no longer a liquid or gas but something in between",
+        "visual_keyword": "state of matter diagram"
       },
       {
-        "narration": "This bizarre behavior is due to quantum effects",
-        "visual_keyword": "quantum physics"
+        "narration": "this phase allows for unusual reactions and applications",
+        "visual_keyword": "chemistry lab equipment"
       },
       {
-        "narration": "Superfluids are the future of quantum technology, and it's mind blowing",
-        "visual_keyword": "quantum computing"
+        "narration": "unlocking new possibilities in science and industry",
+        "visual_keyword": "industrial machinery"
       }
     ],
-    "created_at": "2026-07-29T20:15:01.472507+00:00"
+    "created_at": "2026-07-30T20:17:05.964306+00:00"
+  },
+  {
+    "id": "dd390ae6-1409-4fd8-9975-f046f4a777bd",
+    "format": "short",
+    "niche": "science experiments explained",
+    "title": "Exploding Liquids",
+    "description": "Understand the power of supercritical fluids in everyday life",
+    "tags": [
+      "supercritical fluids",
+      "science experiments",
+      "liquid explosion",
+      "fluid dynamics",
+      "pressure experiment",
+      "chemistry",
+      "physics",
+      "lab experiments"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "When liquids explode they can be deadly, but what triggers this explosion",
+        "visual_keyword": "liquid explosion"
+      },
+      {
+        "narration": "The answer lies in supercritical fluids, where pressure and temperature meet",
+        "visual_keyword": "supercritical chamber"
+      },
+      {
+        "narration": "At this point liquids become highly compressible and expand rapidly",
+        "visual_keyword": "compressed liquid"
+      },
+      {
+        "narration": "Causing a massive release of energy that can be catastrophic",
+        "visual_keyword": "explosion aftermath"
+      },
+      {
+        "narration": "Understanding supercritical fluids is key to harnessing their power",
+        "visual_keyword": "lab equipment"
+      },
+      {
+        "narration": "And unlocking new technologies that can change our world, literally",
+        "visual_keyword": "future tech"
+      }
+    ],
+    "created_at": "2026-07-30T20:17:12.014474+00:00"
+  },
+  {
+    "id": "9b55fd27-cb71-4acb-8b1c-32dd01d9003b",
+    "format": "short",
+    "niche": "science experiments explained",
+    "title": "Exploding Liquids",
+    "description": "Discover the power of supercritical fluids in a shocking experiment.",
+    "tags": [
+      "Supercritical Fluids",
+      "Science Experiments",
+      "Liquid Explosion",
+      "Pressure Chamber",
+      "Chemistry",
+      "Physics",
+      "Lab Experiments",
+      "Gas Phase"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Liquids can explode if heated past their supercritical point.",
+        "visual_keyword": "lab explosion"
+      },
+      {
+        "narration": "This point is where the liquid and gas phases merge.",
+        "visual_keyword": "phase diagram"
+      },
+      {
+        "narration": "Supercritical fluids have unique properties.",
+        "visual_keyword": "high pressure chamber"
+      },
+      {
+        "narration": "They can diffuse through solids like a gas.",
+        "visual_keyword": "solid objects"
+      },
+      {
+        "narration": "And dissolve materials like a liquid.",
+        "visual_keyword": "dissolving solids"
+      },
+      {
+        "narration": "The result is a powerful explosion.",
+        "visual_keyword": "explosion aftermath"
+      }
+    ],
+    "created_at": "2026-07-30T20:17:18.038863+00:00"
   }
 ]
