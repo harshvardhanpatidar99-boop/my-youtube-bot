@@ -15,6 +15,21 @@ PIXABAY_API_KEY = os.environ.get("PIXABAY_API_KEY", "")       # free: pixabay.co
 YT_CLIENT_ID = os.environ.get("YOUTUBE_CLIENT_ID", "")
 YT_CLIENT_SECRET = os.environ.get("YOUTUBE_CLIENT_SECRET", "")
 YT_REFRESH_TOKEN = os.environ.get("YOUTUBE_REFRESH_TOKEN", "")
+INSTAGRAM_USERNAME = (
+    os.environ.get("INSTAGRAM_USERNAME", "")
+    or os.environ.get("INSTA_USERNAME", "")
+    or os.environ.get("INSTA_ID", "")
+    or os.environ.get("INSTAGRAM_ID", "")
+    or os.environ.get("IG_USERNAME", "")
+    or os.environ.get("IG_ID", "")
+    or ""
+)
+INSTAGRAM_PASSWORD = (
+    os.environ.get("INSTAGRAM_PASSWORD", "")
+    or os.environ.get("INSTA_PASSWORD", "")
+    or os.environ.get("IG_PASSWORD", "")
+    or ""
+)
 
 # ---------------------------------------------------------------------------
 # LLM settings (free tier via Groq, OpenAI-compatible endpoint)
@@ -70,3 +85,4 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 CURRENT_NICHE_FILE = os.path.join(DATA_DIR, "current_niche.json")
 CONTENT_QUEUE_FILE = os.path.join(DATA_DIR, "content_queue.json")
 UPLOAD_LOG_FILE = os.path.join(DATA_DIR, "upload_log.json")
+INSTAGRAM_UPLOAD_LOG_FILE = os.path.join(DATA_DIR, "instagram_upload_log.json")

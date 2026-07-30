@@ -6,7 +6,7 @@ The single entry point GitHub Actions calls on a schedule. Each run:
   1. Re-evaluates the niche if it's gone stale (monthly, see config).
   2. Refills the content queue if it's running low.
   3. Pops the next queued item, generates voiceover -> video -> thumbnail.
-  4. Uploads it to YouTube, scheduled for the next natural slot.
+  4. Uploads it to YouTube, scheduled for the next natural slot, and for Shorts also publishes as an Instagram Reel.
   5. Logs everything to data/ so future runs know the channel's state.
 
 This script assumes zero human input at run time -- every decision
@@ -34,6 +34,7 @@ import traceback
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config
+from instagram_uploader import _log_upload as _log_insta_upload, upload_reel
 from niche_research import choose_best_niche
 from script_writer import _load_queue, _save_queue, refill_queue
 from thumbnail_gen import generate_thumbnail
@@ -110,6 +111,8 @@ def run_once(dry_run: bool = False, force_niche: bool = False) -> int:
             print(f"   video     : {video_path} ({size_mb:.1f}MB)")
             print(f"   thumbnail : {thumb_path}")
             print(f"   would publish at: {slot.isoformat()}")
+            if fmt == "short":
+                print("   would also publish as Instagram Reel")
             # Preserve artifacts for inspection in a dry run.
             keep = os.path.join(config.DATA_DIR, "dry_run", str(item.get("id")))
             os.makedirs(os.path.dirname(keep), exist_ok=True)
@@ -122,6 +125,12 @@ def run_once(dry_run: bool = False, force_niche: bool = False) -> int:
         video_id = upload_video(video_path, thumb_path, item, slot)
         _log_upload(item, video_id, slot)
 
+        media_code = None
+        if fmt == "short":
+            print("-- publishing short as Instagram Reel --")
+            media_code = upload_reel(video_path, thumb_path, item)
+            _log_insta_upload(item, media_code)
+
         # Only now is it safe to drop the item from the queue.
         remaining = _load_queue()
         remaining = [q for q in remaining if q.get("id") != item.get("id")]
@@ -129,6 +138,8 @@ def run_once(dry_run: bool = False, force_niche: bool = False) -> int:
 
         print(f"\nDone. https://youtube.com/watch?v={video_id} "
               f"scheduled for {slot.isoformat()}")
+        if fmt == "short" and media_code:
+            print(f"Also published on Instagram: https://www.instagram.com/reel/{media_code}/")
         return 0
 
     except Exception as exc:

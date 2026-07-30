@@ -182,6 +182,63 @@ class TestUploaderLogic(unittest.TestCase):
             self.assertIn("YOUTUBE_CLIENT_ID", str(ctx.exception))
 
 
+class TestInstagramUploader(unittest.TestCase):
+    def setUp(self):
+        import instagram_uploader
+        self.iu = instagram_uploader
+
+    def test_missing_credentials_is_actionable(self):
+        with mock.patch.object(config, "INSTAGRAM_USERNAME", ""), \
+             mock.patch.object(config, "INSTAGRAM_PASSWORD", ""):
+            with self.assertRaises(self.iu.InstagramUploadError) as ctx:
+                self.iu._require_credentials()
+            self.assertIn("INSTAGRAM", str(ctx.exception))
+
+    def test_build_caption(self):
+        item = {
+            "title": "Why Mars Is Red",
+            "description": "A short look at Mars.",
+            "tags": ["space facts", "mars", "astronomy"],
+        }
+        caption = self.iu._build_caption(item)
+        self.assertIn("Why Mars Is Red", caption)
+        self.assertIn("#SpaceFacts", caption)
+        self.assertIn("#Reels", caption)
+        self.assertIn("#Shorts", caption)
+        self.assertLessEqual(len(caption), 2200)
+
+    def test_log_upload_atomicity(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            log_file = os.path.join(tmp, "instagram_upload_log.json")
+            with mock.patch.object(config, "INSTAGRAM_UPLOAD_LOG_FILE", log_file), \
+                 mock.patch.object(config, "DATA_DIR", tmp):
+                self.iu._log_upload({"id": "1", "title": "t", "format": "short", "niche": "n"}, "C123")
+                self.assertTrue(os.path.exists(log_file))
+                log = self.iu._load_log()
+                self.assertEqual(len(log), 1)
+                self.assertEqual(log[0]["media_code"], "C123")
+                self.assertIn("instagram.com/reel/C123", log[0]["url"])
+
+    def test_upload_reel_success(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            video_path = _make_audio(os.path.join(tmp, "v.mp4"), 1.0)
+            thumb_path = os.path.join(tmp, "t.jpg")
+            with open(thumb_path, "wb") as f:
+                f.write(b"fake thumb content")
+
+            fake_media = mock.MagicMock()
+            fake_media.code = "CODE999"
+            fake_client = mock.MagicMock()
+            fake_client.clip_upload.return_value = fake_media
+
+            with mock.patch.object(self.iu, "_get_client", return_value=fake_client), \
+                 mock.patch.object(config, "INSTAGRAM_USERNAME", "user"), \
+                 mock.patch.object(config, "INSTAGRAM_PASSWORD", "pass"):
+                code = self.iu.upload_reel(video_path, thumb_path, {"title": "T", "tags": ["tag"]})
+                self.assertEqual(code, "CODE999")
+                fake_client.clip_upload.assert_called_once()
+
+
 class TestNicheResearch(unittest.TestCase):
     def test_pytrends_urllib3_shim(self):
         """Regression: pytrends passes method_whitelist, removed in urllib3 2.x."""
@@ -430,6 +487,116 @@ class TestOrchestrator(unittest.TestCase):
             produced = os.path.join(tmp, "dry_run", "e2e", "video", "e2e.mp4")
             self.assertTrue(os.path.exists(produced), "dry run kept no video")
             self.assertGreater(os.path.getsize(produced), 10000)
+
+    def test_orchestrator_publishes_short_to_instagram(self):
+        """Regression/feature: Shorts must be published to both YouTube and Instagram Reels."""
+        import orchestrator
+
+        with tempfile.TemporaryDirectory() as tmp:
+            queue_file = os.path.join(tmp, "queue.json")
+            item = {"id": "short-1", "format": "short", "niche": "space facts",
+                    "title": "The Moon Is Drifting Away", "tags": ["space"],
+                    "description": "d",
+                    "scenes": [{"narration": "The moon drifts away each year.",
+                                "visual_keyword": "moon"}]}
+            with open(queue_file, "w") as f:
+                json.dump([item, dict(item, id="second")], f)
+
+            yt_uploaded = {"called": False}
+            ig_uploaded = {"called": False}
+
+            def fake_yt_upload(*a, **k):
+                yt_uploaded["called"] = True
+                return "yt_id"
+
+            def fake_ig_upload(*a, **k):
+                ig_uploaded["called"] = True
+                return "ig_code"
+
+            def fake_assemble(item_arg, out_dir):
+                os.makedirs(out_dir, exist_ok=True)
+                p = os.path.join(out_dir, f"{item_arg['id']}.mp4")
+                with open(p, "wb") as f:
+                    f.write(b"fake mp4")
+                return p
+
+            def fake_thumb(video_path, title, out_path, is_short=True):
+                os.makedirs(os.path.dirname(out_path), exist_ok=True)
+                with open(out_path, "wb") as f:
+                    f.write(b"fake jpg")
+                return out_path
+
+            with mock.patch.object(config, "CONTENT_QUEUE_FILE", queue_file), \
+                 mock.patch.object(config, "DATA_DIR", tmp), \
+                 mock.patch.object(config, "UPLOAD_LOG_FILE", os.path.join(tmp, "upload_log.json")), \
+                 mock.patch.object(config, "INSTAGRAM_UPLOAD_LOG_FILE", os.path.join(tmp, "ig_log.json")), \
+                 mock.patch.object(orchestrator, "choose_best_niche",
+                                   lambda force=False: {"niche": "space facts"}), \
+                 mock.patch.object(orchestrator, "generate_voiceover", lambda item_arg, wd: item_arg), \
+                 mock.patch.object(orchestrator, "assemble_video", fake_assemble), \
+                 mock.patch.object(orchestrator, "generate_thumbnail", fake_thumb), \
+                 mock.patch.object(orchestrator, "upload_video", fake_yt_upload), \
+                 mock.patch.object(orchestrator, "upload_reel", fake_ig_upload):
+                rc = orchestrator.run_once(dry_run=False)
+
+            self.assertEqual(rc, 0)
+            self.assertTrue(yt_uploaded["called"], "must upload Short to YouTube")
+            self.assertTrue(ig_uploaded["called"], "must upload Short to Instagram Reel")
+            with open(queue_file) as f:
+                self.assertEqual([q["id"] for q in json.load(f)], ["second"], "item must be popped after successful upload")
+            self.assertTrue(os.path.exists(os.path.join(tmp, "ig_log.json")), "must log IG upload")
+
+    def test_orchestrator_skips_instagram_for_longform(self):
+        """Long-form videos must only go to YouTube, not Instagram Reels."""
+        import orchestrator
+
+        with tempfile.TemporaryDirectory() as tmp:
+            queue_file = os.path.join(tmp, "queue.json")
+            item = {"id": "long-1", "format": "longform", "niche": "space facts",
+                    "title": "A Long Video", "tags": ["space"],
+                    "description": "d",
+                    "scenes": [{"narration": "A long narration.",
+                                "visual_keyword": "moon"}]}
+            with open(queue_file, "w") as f:
+                json.dump([item, dict(item, id="second")], f)
+
+            ig_uploaded = {"called": False}
+
+            def fake_yt_upload(*a, **k):
+                return "yt_id"
+
+            def fake_ig_upload(*a, **k):
+                ig_uploaded["called"] = True
+                return "ig_code"
+
+            def fake_assemble(item_arg, out_dir):
+                os.makedirs(out_dir, exist_ok=True)
+                p = os.path.join(out_dir, f"{item_arg['id']}.mp4")
+                with open(p, "wb") as f:
+                    f.write(b"fake mp4")
+                return p
+
+            def fake_thumb(video_path, title, out_path, is_short=True):
+                os.makedirs(os.path.dirname(out_path), exist_ok=True)
+                with open(out_path, "wb") as f:
+                    f.write(b"fake jpg")
+                return out_path
+
+            with mock.patch.object(config, "CONTENT_QUEUE_FILE", queue_file), \
+                 mock.patch.object(config, "DATA_DIR", tmp), \
+                 mock.patch.object(config, "UPLOAD_LOG_FILE", os.path.join(tmp, "upload_log.json")), \
+                 mock.patch.object(config, "INSTAGRAM_UPLOAD_LOG_FILE", os.path.join(tmp, "ig_log.json")), \
+                 mock.patch.object(orchestrator, "choose_best_niche",
+                                   lambda force=False: {"niche": "space facts"}), \
+                 mock.patch.object(orchestrator, "generate_voiceover", lambda item_arg, wd: item_arg), \
+                 mock.patch.object(orchestrator, "assemble_video", fake_assemble), \
+                 mock.patch.object(orchestrator, "generate_thumbnail", fake_thumb), \
+                 mock.patch.object(orchestrator, "upload_video", fake_yt_upload), \
+                 mock.patch.object(orchestrator, "upload_reel", fake_ig_upload):
+                rc = orchestrator.run_once(dry_run=False)
+
+            self.assertEqual(rc, 0)
+            self.assertFalse(ig_uploaded["called"], "must not upload longform to IG")
 
 
 if __name__ == "__main__":

@@ -1,9 +1,10 @@
-# YouTube Automation Pipeline (Shorts + Long-form, $0/month)
+# YouTube & Instagram Automation Pipeline (Shorts/Reels + Long-form, $0/month)
 
 Fully automated: niche selection, scripting, voiceover, video assembly,
-thumbnails, and scheduled uploads for both Shorts and long-form — running
-on a free schedule via GitHub Actions. Once set up, it makes every content
-decision itself, forever (re-checking the market monthly).
+thumbnails, scheduled uploads for both Shorts and long-form, and automated
+publishing of generated Shorts as Instagram Reels — running on a free
+schedule via GitHub Actions. Once set up, it makes every content decision
+itself, forever (re-checking the market monthly).
 
 ## What this does every run (no input from you)
 
@@ -19,6 +20,9 @@ decision itself, forever (re-checking the market monthly).
 5. **Makes a thumbnail** — bold text over a video frame.
 6. **Uploads to YouTube** — schedules Shorts multiple times/day and
    long-form a few times/week, sets tags/description/#Shorts automatically.
+7. **Publishes Shorts as Instagram Reels** — automatically uploads any
+   generated Short as an Instagram Reel with hashtags using your Instagram
+   username/ID and password.
 
 ## The one thing that can't be automated: initial account access
 
@@ -55,7 +59,8 @@ channel, approve, and copy the three printed values.
 ### 4. Add secrets to your GitHub repo
 Repo → Settings → Secrets and variables → Actions → New repository secret:
 `GROQ_API_KEY`, `PEXELS_API_KEY`, `PIXABAY_API_KEY`, `YOUTUBE_CLIENT_ID`,
-`YOUTUBE_CLIENT_SECRET`, `YOUTUBE_REFRESH_TOKEN`, `YOUTUBE_DATA_API_KEY`.
+`YOUTUBE_CLIENT_SECRET`, `YOUTUBE_REFRESH_TOKEN`, `YOUTUBE_DATA_API_KEY`,
+`INSTAGRAM_USERNAME` (or `INSTA_ID`), and `INSTAGRAM_PASSWORD` (or `INSTA_PASSWORD`).
 
 ### 5. Push this repo to GitHub and enable Actions
 That's it — the workflow in `.github/workflows/automation.yml` runs 3x/day
@@ -93,6 +98,7 @@ tts_voiceover.py        # free TTS
 video_assembler.py      # stock footage + ffmpeg assembly
 thumbnail_gen.py        # thumbnail generation
 youtube_uploader.py     # scheduled upload
+instagram_uploader.py   # publishes Shorts as Instagram Reels
 get_refresh_token.py    # one-time OAuth helper (run locally)
 orchestrator.py         # ties it all together, called by GitHub Actions
 tests/test_pipeline.py  # offline end-to-end + regression tests
