@@ -1,50 +1,5 @@
 [
   {
-    "id": "d9de01ab-69ee-4026-b440-3c6b0bec7db2",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Explore the bizarre world of superfluids",
-    "tags": [
-      "superfluids",
-      "quantum physics",
-      "liquid helium",
-      "zero viscosity",
-      "science experiments",
-      "fluid dynamics",
-      "cryogenics",
-      "temperature control"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a liquid that can flow uphill and defy gravity",
-        "visual_keyword": "liquid helium"
-      },
-      {
-        "narration": "This is the strange world of superfluids",
-        "visual_keyword": "superfluid flow"
-      },
-      {
-        "narration": "Where liquids have zero viscosity",
-        "visual_keyword": "viscosity demo"
-      },
-      {
-        "narration": "And can climb up walls and escape containers",
-        "visual_keyword": "superfluid escape"
-      },
-      {
-        "narration": "The key to this phenomenon is temperature control",
-        "visual_keyword": "cryogenic equipment"
-      },
-      {
-        "narration": "At extremely low temperatures liquids become superfluid and nothing is impossible",
-        "visual_keyword": "superfluid experiment"
-      }
-    ],
-    "created_at": "2026-07-29T20:14:49.151404+00:00"
-  },
-  {
     "id": "b53b3db7-7874-49d5-8f05-bec012ae5d09",
     "format": "short",
     "niche": "science experiments explained",
