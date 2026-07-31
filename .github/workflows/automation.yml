@@ -36,12 +36,13 @@ jobs:
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           YOUTUBE_DATA_API_KEY: ${{ secrets.YOUTUBE_DATA_API_KEY }}
+          INSTAGRAM_USERNAME: ${{ secrets.INSTAGRAM_USERNAME || secrets.INSTA_ID || secrets.INSTAGRAM_ID || secrets.INSTA_USERNAME }}
+          INSTAGRAM_PASSWORD: ${{ secrets.INSTAGRAM_PASSWORD || secrets.INSTA_PASSWORD }}
         run: python orchestrator.py
-
       - name: Commit updated state files
         run: |
           git config user.name "channel-bot"
           git config user.email "actions@github.com"
-          git add data/current_niche.json data/content_queue.json data/upload_log.json || true
+          git add data/current_niche.json data/content_queue.json data/upload_log.json data/instagram_upload_log.json || true
           git diff --cached --quiet || git commit -m "Automated content run [skip ci]"
           git push
