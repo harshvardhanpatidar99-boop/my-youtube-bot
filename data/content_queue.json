@@ -1,50 +1,5 @@
 [
   {
-    "id": "dd390ae6-1409-4fd8-9975-f046f4a777bd",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Exploding Liquids",
-    "description": "Understand the power of supercritical fluids in everyday life",
-    "tags": [
-      "supercritical fluids",
-      "science experiments",
-      "liquid explosion",
-      "fluid dynamics",
-      "pressure experiment",
-      "chemistry",
-      "physics",
-      "lab experiments"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "When liquids explode they can be deadly, but what triggers this explosion",
-        "visual_keyword": "liquid explosion"
-      },
-      {
-        "narration": "The answer lies in supercritical fluids, where pressure and temperature meet",
-        "visual_keyword": "supercritical chamber"
-      },
-      {
-        "narration": "At this point liquids become highly compressible and expand rapidly",
-        "visual_keyword": "compressed liquid"
-      },
-      {
-        "narration": "Causing a massive release of energy that can be catastrophic",
-        "visual_keyword": "explosion aftermath"
-      },
-      {
-        "narration": "Understanding supercritical fluids is key to harnessing their power",
-        "visual_keyword": "lab equipment"
-      },
-      {
-        "narration": "And unlocking new technologies that can change our world, literally",
-        "visual_keyword": "future tech"
-      }
-    ],
-    "created_at": "2026-07-30T20:17:12.014474+00:00"
-  },
-  {
     "id": "9b55fd27-cb71-4acb-8b1c-32dd01d9003b",
     "format": "short",
     "niche": "science experiments explained",
