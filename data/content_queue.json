@@ -1,50 +1,5 @@
 [
   {
-    "id": "1292b6ef-2e1c-4430-aa2d-0b91baf190fc",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Erased Reality",
-    "description": "Discover the mind-bending science behind quantum eraser experiments",
-    "tags": [
-      "Quantum Mechanics",
-      "Science Experiments",
-      "Eraser Experiment",
-      "Quantum Physics",
-      "Reality Distortion",
-      "Time Travel",
-      "Paradox",
-      "Science Facts"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine being able to erase the past",
-        "visual_keyword": "clock hands moving"
-      },
-      {
-        "narration": "In the quantum world, this is possible",
-        "visual_keyword": "atomic particles"
-      },
-      {
-        "narration": "The quantum eraser experiment shows",
-        "visual_keyword": "lab equipment"
-      },
-      {
-        "narration": "that even after a event has occurred",
-        "visual_keyword": "event timeline"
-      },
-      {
-        "narration": "its outcome can still be changed",
-        "visual_keyword": "alternate reality"
-      },
-      {
-        "narration": "Erasing reality one photon at a time",
-        "visual_keyword": "photon particle"
-      }
-    ],
-    "created_at": "2026-08-01T08:11:14.915722+00:00"
-  },
-  {
     "id": "a205fddf-dab7-4f26-abdf-57a5c45aa794",
     "format": "short",
     "niche": "science experiments explained",
