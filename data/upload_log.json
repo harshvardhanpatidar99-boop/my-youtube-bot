@@ -238,5 +238,15 @@
     "publish_at": "2026-08-01T13:00:00+00:00",
     "uploaded_at": "2026-08-01T08:12:01.407379+00:00",
     "url": "https://youtube.com/watch?v=rv6ePCDG7GE"
+  },
+  {
+    "content_id": "6518cd4b-45e8-42cb-a526-9daa557b97d0",
+    "video_id": "lbdf8YY46mc",
+    "title": "Quantum Eraser",
+    "format": "longform",
+    "niche": "science experiments explained",
+    "publish_at": "2026-08-10T16:00:00+00:00",
+    "uploaded_at": "2026-08-01T12:59:53.021729+00:00",
+    "url": "https://youtube.com/watch?v=lbdf8YY46mc"
   }
 ]
