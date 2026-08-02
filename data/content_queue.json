@@ -1,51 +1,5 @@
 [
   {
-    "id": "a205fddf-dab7-4f26-abdf-57a5c45aa794",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Quantum Time Travel",
-    "description": "Discover the mind-bending concept of the Quantum Eraser experiment",
-    "tags": [
-      "Quantum Mechanics",
-      "Time Travel",
-      "Science Experiments",
-      "Quantum Eraser",
-      "Physics",
-      "Paradox",
-      "Space Time",
-      "Wormholes",
-      "Quantum Physics"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Scientists can actually erase the past",
-        "visual_keyword": "time travel clock"
-      },
-      {
-        "narration": "Using a phenomenon called quantum entanglement",
-        "visual_keyword": "entangled particles"
-      },
-      {
-        "narration": "They can send information back in time",
-        "visual_keyword": "particle accelerator"
-      },
-      {
-        "narration": "And change the course of events",
-        "visual_keyword": "timeline alteration"
-      },
-      {
-        "narration": "But here's the kicker",
-        "visual_keyword": "surprised scientist"
-      },
-      {
-        "narration": "The past can also change the future",
-        "visual_keyword": "causality loop"
-      }
-    ],
-    "created_at": "2026-08-01T08:11:20.809938+00:00"
-  },
-  {
     "id": "190a8f3f-73ed-4a70-b8a9-99e6fbb74cb8",
     "format": "short",
     "niche": "science experiments explained",
