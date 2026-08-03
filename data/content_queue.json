@@ -1,48 +1,5 @@
 [
   {
-    "id": "6c6a18bb-a2b6-47de-af68-8aeed4843e90",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Exploring the mind-bending phenomenon of quantum levitation",
-    "tags": [
-      "Quantum Physics",
-      "Levitation",
-      "Magnetic Field",
-      "Superconductors",
-      "Science Experiments",
-      "Gravity Defiance"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine objects floating in mid-air",
-        "visual_keyword": "magnetic field"
-      },
-      {
-        "narration": "This is quantum levitation",
-        "visual_keyword": "superconductor demo"
-      },
-      {
-        "narration": "A phenomenon where materials levitate above a surface",
-        "visual_keyword": "quantum physics lab"
-      },
-      {
-        "narration": "Using magnetic fields to create an upward force",
-        "visual_keyword": "magnetic levitation"
-      },
-      {
-        "narration": "This mind-bending effect is a game-changer",
-        "visual_keyword": "futuristic technology"
-      },
-      {
-        "narration": "Where gravity is no longer the boss",
-        "visual_keyword": "defying gravity"
-      }
-    ],
-    "created_at": "2026-08-02T13:00:07.521331+00:00"
-  },
-  {
     "id": "65f996f9-6cb6-4724-86f5-8921591cb67f",
     "format": "short",
     "niche": "science experiments explained",
