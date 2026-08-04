@@ -1,50 +1,5 @@
 [
   {
-    "id": "1f1168c0-d098-40c9-addf-e7d94678df70",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Exploding CO2",
-    "description": "Learn how supercritical CO2 works in a mesmerizing experiment",
-    "tags": [
-      "supercritical CO2",
-      "science experiment",
-      "CO2 explosion",
-      "chemistry",
-      "pressure vessel",
-      "green technology",
-      "fluid dynamics",
-      "laboratory equipment"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Supercritical CO2 can explode with shocking force",
-        "visual_keyword": "CO2 explosion"
-      },
-      {
-        "narration": "At high pressure and temperature it becomes a supercritical fluid",
-        "visual_keyword": "pressure vessel"
-      },
-      {
-        "narration": "Denser than a gas but still flowing like a liquid",
-        "visual_keyword": "fluid dynamics"
-      },
-      {
-        "narration": "Reaching this state requires extremely high pressure",
-        "visual_keyword": "laboratory equipment"
-      },
-      {
-        "narration": "And temperature above its critical point of 31 degrees Celsius",
-        "visual_keyword": "temperature control"
-      },
-      {
-        "narration": "When released it expands rapidly with tremendous energy",
-        "visual_keyword": "explosion aftermath"
-      }
-    ],
-    "created_at": "2026-08-03T20:28:34.615071+00:00"
-  },
-  {
     "id": "57bc14dd-86e4-4228-8193-bddb3939534b",
     "format": "short",
     "niche": "science experiments explained",
