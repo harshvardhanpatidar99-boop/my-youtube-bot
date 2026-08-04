@@ -1,51 +1,5 @@
 [
   {
-    "id": "221cb3d9-f90f-49bb-a921-47bc2bee7b4d",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Supercritical Chaos",
-    "description": "Explore the powerful effects of supercritical CO2 in this experiment",
-    "tags": [
-      "supercritical CO2",
-      "science experiments",
-      "CO2",
-      "chemistry",
-      "physics",
-      "pressure",
-      "temperature",
-      "fluid dynamics",
-      "lab experiments"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Supercritical CO2 is a game changer",
-        "visual_keyword": "CO2 bubbles"
-      },
-      {
-        "narration": "When CO2 reaches its critical point it becomes a superfluid",
-        "visual_keyword": "superfluid animation"
-      },
-      {
-        "narration": "It expands and contracts rapidly",
-        "visual_keyword": "rapid expansion footage"
-      },
-      {
-        "narration": "Creating incredible pressure and temperature fluctuations",
-        "visual_keyword": "pressure gauge"
-      },
-      {
-        "narration": "This unique state of matter has many practical applications",
-        "visual_keyword": "industrial machinery"
-      },
-      {
-        "narration": "And it's about to revolutionize the way we think about fluids",
-        "visual_keyword": "lab equipment"
-      }
-    ],
-    "created_at": "2026-08-03T20:28:28.653805+00:00"
-  },
-  {
     "id": "1f1168c0-d098-40c9-addf-e7d94678df70",
     "format": "short",
     "niche": "science experiments explained",
