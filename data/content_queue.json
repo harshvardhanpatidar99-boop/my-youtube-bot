@@ -1,50 +1,5 @@
 [
   {
-    "id": "f0e323e6-c167-4885-b1ed-3ed6312189bd",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity Now",
-    "description": "Discover the mind-bending science behind quantum levitation",
-    "tags": [
-      "quantum levitation",
-      "magnetic fields",
-      "superconductors",
-      "zero gravity",
-      "science experiments",
-      "physics explained",
-      "quantum mechanics",
-      "magnetic levitation"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine objects floating in mid-air, defying gravity",
-        "visual_keyword": "objects floating"
-      },
-      {
-        "narration": "This is quantum levitation, where magnetic fields do the trick",
-        "visual_keyword": "magnetic field lines"
-      },
-      {
-        "narration": "Superconductors are the key, with zero electrical resistance",
-        "visual_keyword": "superconductor materials"
-      },
-      {
-        "narration": "When cooled, they can levitate, suspended in air",
-        "visual_keyword": "liquid nitrogen cooling"
-      },
-      {
-        "narration": "The result is a zero-gravity environment, right here on earth",
-        "visual_keyword": "zero gravity simulation"
-      },
-      {
-        "narration": "And that's the incredible power of quantum levitation, where up is no longer the limit",
-        "visual_keyword": "quantum levitation demo"
-      }
-    ],
-    "created_at": "2026-08-05T08:26:52.412934+00:00"
-  },
-  {
     "id": "a65cc8da-c304-4ca0-9521-27d285d13e25",
     "format": "short",
     "niche": "science experiments explained",
