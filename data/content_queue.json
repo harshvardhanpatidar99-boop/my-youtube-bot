@@ -1,49 +1,5 @@
 [
   {
-    "id": "edb18ea6-a50b-4e0b-92b0-970ae3706e63",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Exploring the mind-bending concept of quantum levitation",
-    "tags": [
-      "quantum physics",
-      "magnetic levitation",
-      "superconductors",
-      "zero gravity",
-      "science experiments",
-      "magnetic fields",
-      "levitation technology"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine objects floating in mid-air, defying gravity's pull",
-        "visual_keyword": "magnetic levitation lab"
-      },
-      {
-        "narration": "This is quantum levitation, where superconductors meet magnetic fields",
-        "visual_keyword": "superconductor materials"
-      },
-      {
-        "narration": "The result is a frictionless, weightless environment",
-        "visual_keyword": "zero gravity simulator"
-      },
-      {
-        "narration": "Where the rules of physics are pushed to the limit",
-        "visual_keyword": "magnetic field lines"
-      },
-      {
-        "narration": "And the impossible becomes possible",
-        "visual_keyword": "levitating objects"
-      },
-      {
-        "narration": "Defying gravity, one magnet at a time",
-        "visual_keyword": "quantum levitation demo"
-      }
-    ],
-    "created_at": "2026-08-06T13:43:08.538911+00:00"
-  },
-  {
     "id": "101fdb14-7f72-46bd-b719-7c90d8feecc2",
     "format": "short",
     "niche": "science experiments explained",
