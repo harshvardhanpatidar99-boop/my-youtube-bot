@@ -1,48 +1,5 @@
 [
   {
-    "id": "101fdb14-7f72-46bd-b719-7c90d8feecc2",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Discover the mind-bending science of quantum levitation",
-    "tags": [
-      "Quantum Levitation",
-      "Science Experiments",
-      "Gravity",
-      "Magnetic Fields",
-      "Superconductors",
-      "Physics"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a world where objects float in mid-air",
-        "visual_keyword": "flying objects"
-      },
-      {
-        "narration": "Welcome to the world of quantum levitation",
-        "visual_keyword": "superconductor lab"
-      },
-      {
-        "narration": "Scientists use magnetic fields to suspend objects",
-        "visual_keyword": "magnetic field lines"
-      },
-      {
-        "narration": "This phenomenon is made possible by superconductors",
-        "visual_keyword": "superconductor materials"
-      },
-      {
-        "narration": "Which can conduct electricity with zero resistance",
-        "visual_keyword": "electrical current flow"
-      },
-      {
-        "narration": "The result is a mind-bending defiance of gravity",
-        "visual_keyword": "floating superconductor"
-      }
-    ],
-    "created_at": "2026-08-06T13:43:14.394556+00:00"
-  },
-  {
     "id": "d95c0771-6f4c-4ff1-b16a-800379749b09",
     "format": "short",
     "niche": "science experiments explained",
