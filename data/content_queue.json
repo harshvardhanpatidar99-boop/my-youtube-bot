@@ -1,50 +1,5 @@
 [
   {
-    "id": "14665635-46be-4914-9379-ad8a6866cd91",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defying Gravity",
-    "description": "Learn how superfluids work and their amazing properties.",
-    "tags": [
-      "superfluids",
-      "liquid helium",
-      "quantum physics",
-      "zero viscosity",
-      "science experiments",
-      "fluid dynamics",
-      "gravity defied",
-      "science explained"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a liquid that can flow uphill",
-        "visual_keyword": "liquid flowing uphill"
-      },
-      {
-        "narration": "This is possible with superfluids",
-        "visual_keyword": "superfluid helium"
-      },
-      {
-        "narration": "A state of matter that behaves like a fluid",
-        "visual_keyword": "fluid dynamics animation"
-      },
-      {
-        "narration": "But with zero viscosity",
-        "visual_keyword": "viscosity comparison"
-      },
-      {
-        "narration": "Allowing it to defy gravity",
-        "visual_keyword": "superfluid flowing up"
-      },
-      {
-        "narration": "And flow without any resistance",
-        "visual_keyword": "zero resistance fluid"
-      }
-    ],
-    "created_at": "2026-08-08T06:41:07.945444+00:00"
-  },
-  {
     "id": "cff6e965-cab5-4397-9615-82ca04cab073",
     "format": "short",
     "niche": "science experiments explained",
