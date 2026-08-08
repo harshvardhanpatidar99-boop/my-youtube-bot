@@ -1,49 +1,247 @@
 [
   {
-    "id": "d95c0771-6f4c-4ff1-b16a-800379749b09",
+    "id": "9cfca7ca-4322-4939-a170-a1b565cef184",
+    "format": "longform",
+    "niche": "science experiments explained",
+    "title": "Superfluids Unleashed",
+    "description": "Delve into the fascinating world of superfluids, where liquids defy gravity and flow without viscosity. Learn about the unique properties of superfluids and their potential applications in science and technology. From helium-4 to Bose-Einstein condensates, discover the wonders of superfluidity and its role in modern physics research.",
+    "tags": [
+      "superfluids",
+      "quantum mechanics",
+      "low-temperature physics",
+      "fluid dynamics",
+      "Bose-Einstein condensates",
+      "helium-4",
+      "superconductivity",
+      "cryogenics",
+      "nanotechnology",
+      "materials science"
+    ],
+    "hook": "Imagine a liquid that can flow up walls and defy gravity, a substance that can exhibit zero viscosity and seemingly magical properties. Welcome to the world of superfluids, where the rules of classical physics no longer apply.",
+    "scenes": [
+      {
+        "narration": "At extremely low temperatures, certain liquids can enter a state of superfluidity, where their behavior is governed by quantum mechanics rather than classical physics.",
+        "visual_keyword": "liquid nitrogen"
+      },
+      {
+        "narration": "One of the most well-known superfluids is helium-4, which becomes superfluid at temperatures below 2.17 Kelvin.",
+        "visual_keyword": "helium-4 cryostat"
+      },
+      {
+        "narration": "When helium-4 is cooled to this temperature, it exhibits a number of unusual properties, including the ability to flow without viscosity and climb up walls.",
+        "visual_keyword": "superfluid helium-4 flow"
+      },
+      {
+        "narration": "This phenomenon is known as the 'creeping film' effect, where the superfluid helium-4 forms a thin film on the surface of the container and flows upwards.",
+        "visual_keyword": "superfluid film formation"
+      },
+      {
+        "narration": "Another fascinating property of superfluids is their ability to exhibit quantum vortices, which are essentially tiny whirlpools that form within the fluid.",
+        "visual_keyword": "quantum vortex simulation"
+      },
+      {
+        "narration": "These vortices are a result of the superfluid's ability to rotate without dissipating energy, and they have been observed in a number of experiments using superfluid helium-4.",
+        "visual_keyword": "rotating superfluid helium-4"
+      },
+      {
+        "narration": "In addition to helium-4, other substances have been found to exhibit superfluidity, including certain types of gases and even solid materials.",
+        "visual_keyword": "Bose-Einstein condensate"
+      },
+      {
+        "narration": "One example is the Bose-Einstein condensate, which is a state of matter that occurs at extremely low temperatures and exhibits superfluid-like behavior.",
+        "visual_keyword": "BEC formation"
+      },
+      {
+        "narration": "Bose-Einstein condensates have been created in the laboratory using a variety of techniques, including laser cooling and evaporative cooling.",
+        "visual_keyword": "laser cooling apparatus"
+      },
+      {
+        "narration": "These condensates have a number of potential applications, including the development of ultra-precise clocks and sensors.",
+        "visual_keyword": "atomic clock laboratory"
+      },
+      {
+        "narration": "Superfluids also have the potential to be used in a number of technological applications, including the development of more efficient cooling systems and advanced materials.",
+        "visual_keyword": "cryogenic cooling system"
+      },
+      {
+        "narration": "For example, superfluid helium-4 could be used to cool high-temperature superconductors, which have the potential to revolutionize the field of energy transmission.",
+        "visual_keyword": "superconductor coil"
+      },
+      {
+        "narration": "In addition to their technological applications, superfluids also have the potential to help us better understand the behavior of matter at the quantum level.",
+        "visual_keyword": "quantum mechanics simulation"
+      },
+      {
+        "narration": "By studying the properties of superfluids, scientists can gain insights into the behavior of particles at the atomic and subatomic level.",
+        "visual_keyword": "particle accelerator"
+      },
+      {
+        "narration": "This knowledge can then be used to develop new materials and technologies that take advantage of the unique properties of superfluids.",
+        "visual_keyword": "nanotechnology laboratory"
+      },
+      {
+        "narration": "One of the most exciting areas of research in superfluids is the study of their behavior in confined geometries, such as nanoscale channels and pores.",
+        "visual_keyword": "nanofluidic device"
+      },
+      {
+        "narration": "By confining superfluids to these small spaces, scientists can study their behavior in detail and gain a deeper understanding of their properties.",
+        "visual_keyword": "superfluid flow simulation"
+      },
+      {
+        "narration": "This research has the potential to lead to the development of new technologies, such as ultra-efficient cooling systems and advanced materials for energy storage.",
+        "visual_keyword": "energy storage device"
+      },
+      {
+        "narration": "In conclusion, superfluids are a fascinating area of research that has the potential to revolutionize our understanding of the behavior of matter at the quantum level.",
+        "visual_keyword": "superfluid helium-4 container"
+      },
+      {
+        "narration": "From their unusual properties to their potential applications, superfluids are an exciting and rapidly evolving field that is sure to continue to capture the imagination of scientists and engineers for years to come.",
+        "visual_keyword": "superfluid research laboratory"
+      }
+    ],
+    "created_at": "2026-08-08T06:41:02.009912+00:00"
+  },
+  {
+    "id": "14665635-46be-4914-9379-ad8a6866cd91",
     "format": "short",
     "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Mind-bending quantum levitation explained in under 1 minute",
+    "title": "Defying Gravity",
+    "description": "Learn how superfluids work and their amazing properties.",
     "tags": [
-      "Quantum Physics",
-      "Levitation",
-      "Magnetic Fields",
-      "Superconductors",
-      "Science Experiments",
-      "Gravity Defied"
+      "superfluids",
+      "liquid helium",
+      "quantum physics",
+      "zero viscosity",
+      "science experiments",
+      "fluid dynamics",
+      "gravity defied",
+      "science explained"
     ],
     "hook": "",
     "scenes": [
       {
-        "narration": "Imagine an object floating in mid-air, defying gravity",
-        "visual_keyword": "magnetic field"
+        "narration": "Imagine a liquid that can flow uphill",
+        "visual_keyword": "liquid flowing uphill"
       },
       {
-        "narration": "This is quantum levitation, made possible by superconductors",
-        "visual_keyword": "superconductor material"
+        "narration": "This is possible with superfluids",
+        "visual_keyword": "superfluid helium"
       },
       {
-        "narration": "When superconductors are cooled, they expel magnetic fields",
-        "visual_keyword": "expelling magnetic field"
+        "narration": "A state of matter that behaves like a fluid",
+        "visual_keyword": "fluid dynamics animation"
       },
       {
-        "narration": "Creating an upward force that counteracts gravity",
-        "visual_keyword": "object levitating"
+        "narration": "But with zero viscosity",
+        "visual_keyword": "viscosity comparison"
       },
       {
-        "narration": "The result is a frictionless, gravity-defying environment",
-        "visual_keyword": "frictionless motion"
+        "narration": "Allowing it to defy gravity",
+        "visual_keyword": "superfluid flowing up"
       },
       {
-        "narration": "Where objects can float, and even move, without touching anything",
-        "visual_keyword": "floating objects"
-      },
-      {
-        "narration": "The future of transportation and technology, reinvented",
-        "visual_keyword": "futuristic transportation"
+        "narration": "And flow without any resistance",
+        "visual_keyword": "zero resistance fluid"
       }
     ],
-    "created_at": "2026-08-06T13:43:36.502446+00:00"
+    "created_at": "2026-08-08T06:41:07.945444+00:00"
+  },
+  {
+    "id": "cff6e965-cab5-4397-9615-82ca04cab073",
+    "format": "short",
+    "niche": "science experiments explained",
+    "title": "Unleashing Superfluids",
+    "description": "Mind-blowing science experiment explains superfluids",
+    "tags": [
+      "superfluids",
+      "science experiments",
+      "liquid nitrogen",
+      "helium",
+      "quantum physics",
+      "zero viscosity",
+      "cryogenics",
+      "fluid dynamics"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Imagine a liquid that defies gravity",
+        "visual_keyword": "liquid flowing upwards"
+      },
+      {
+        "narration": "This is a superfluid, a state of matter",
+        "visual_keyword": "superfluid helium"
+      },
+      {
+        "narration": "Achieved at extremely low temperatures",
+        "visual_keyword": "cryogenic lab equipment"
+      },
+      {
+        "narration": "Where it exhibits zero viscosity",
+        "visual_keyword": "viscometer measurement"
+      },
+      {
+        "narration": "Allowing it to flow without friction",
+        "visual_keyword": "superfluid flowing through tube"
+      },
+      {
+        "narration": "And climb up walls, seemingly on its own",
+        "visual_keyword": "superfluid climbing wall"
+      },
+      {
+        "narration": "Unleashing superfluids reveals their strange power",
+        "visual_keyword": "superfluid experiment closeup"
+      }
+    ],
+    "created_at": "2026-08-08T06:41:13.956750+00:00"
+  },
+  {
+    "id": "d33494c1-8e9c-425a-ad92-ef1fd90133cb",
+    "format": "short",
+    "niche": "science experiments explained",
+    "title": "Unleash Superfluids",
+    "description": "Exploring the fascinating world of superfluids and their unique properties",
+    "tags": [
+      "superfluids",
+      "science experiments",
+      "liquid helium",
+      "quantum physics",
+      "superconductors",
+      "fluid dynamics",
+      "cryogenics"
+    ],
+    "hook": "",
+    "scenes": [
+      {
+        "narration": "Imagine a liquid that defies gravity and flows uphill",
+        "visual_keyword": "liquid helium experiment"
+      },
+      {
+        "narration": "This is the strange world of superfluids",
+        "visual_keyword": "superfluid flow"
+      },
+      {
+        "narration": "At extremely low temperatures",
+        "visual_keyword": "cryogenic lab equipment"
+      },
+      {
+        "narration": "certain liquids can exhibit extraordinary behavior",
+        "visual_keyword": "superfluid helium"
+      },
+      {
+        "narration": "They can flow without viscosity or resistance",
+        "visual_keyword": "fluid dynamics simulation"
+      },
+      {
+        "narration": "And even climb up the sides of containers",
+        "visual_keyword": "superfluid container experiment"
+      },
+      {
+        "narration": "Unlocking the secrets of superfluids can revolutionize technology",
+        "visual_keyword": "superconductor research"
+      }
+    ],
+    "created_at": "2026-08-08T06:41:19.877365+00:00"
   }
 ]
