@@ -1,54 +1,5 @@
 [
   {
-    "id": "cff6e965-cab5-4397-9615-82ca04cab073",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Unleashing Superfluids",
-    "description": "Mind-blowing science experiment explains superfluids",
-    "tags": [
-      "superfluids",
-      "science experiments",
-      "liquid nitrogen",
-      "helium",
-      "quantum physics",
-      "zero viscosity",
-      "cryogenics",
-      "fluid dynamics"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a liquid that defies gravity",
-        "visual_keyword": "liquid flowing upwards"
-      },
-      {
-        "narration": "This is a superfluid, a state of matter",
-        "visual_keyword": "superfluid helium"
-      },
-      {
-        "narration": "Achieved at extremely low temperatures",
-        "visual_keyword": "cryogenic lab equipment"
-      },
-      {
-        "narration": "Where it exhibits zero viscosity",
-        "visual_keyword": "viscometer measurement"
-      },
-      {
-        "narration": "Allowing it to flow without friction",
-        "visual_keyword": "superfluid flowing through tube"
-      },
-      {
-        "narration": "And climb up walls, seemingly on its own",
-        "visual_keyword": "superfluid climbing wall"
-      },
-      {
-        "narration": "Unleashing superfluids reveals their strange power",
-        "visual_keyword": "superfluid experiment closeup"
-      }
-    ],
-    "created_at": "2026-08-08T06:41:13.956750+00:00"
-  },
-  {
     "id": "d33494c1-8e9c-425a-ad92-ef1fd90133cb",
     "format": "short",
     "niche": "science experiments explained",
