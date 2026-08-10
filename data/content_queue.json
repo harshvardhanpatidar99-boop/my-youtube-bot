@@ -1,54 +1,5 @@
 [
   {
-    "id": "423d3e6b-1b19-4510-b7f6-330a4b441226",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Mind-bending science experiment that makes objects float in mid-air",
-    "tags": [
-      "Quantum Levitation",
-      "Science Experiments",
-      "Gravity Defied",
-      "Magnetic Fields",
-      "Superconductors",
-      "Floating Objects",
-      "Physics Experiments",
-      "Levitation"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a world where gravity no longer exists",
-        "visual_keyword": "Floating Objects"
-      },
-      {
-        "narration": "Welcome to the world of quantum levitation",
-        "visual_keyword": "Magnetic Fields"
-      },
-      {
-        "narration": "Where superconductors can make objects float in mid-air",
-        "visual_keyword": "Superconductor Experiment"
-      },
-      {
-        "narration": "Using magnetic fields to create an upward force",
-        "visual_keyword": "Magnetic Field Visualization"
-      },
-      {
-        "narration": "That counteracts the downward pull of gravity",
-        "visual_keyword": "Gravity Animation"
-      },
-      {
-        "narration": "The result is a mind-bending phenomenon that defies explanation",
-        "visual_keyword": "Levitating Objects"
-      },
-      {
-        "narration": "And will leave you questioning the laws of physics forever",
-        "visual_keyword": "Physics Equation"
-      }
-    ],
-    "created_at": "2026-08-09T12:29:44.999289+00:00"
-  },
-  {
     "id": "62cfd510-f485-46b4-9d79-0242ca8e231f",
     "format": "short",
     "niche": "science experiments explained",
