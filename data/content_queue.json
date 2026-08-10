@@ -1,49 +1,5 @@
 [
   {
-    "id": "62cfd510-f485-46b4-9d79-0242ca8e231f",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Exploring the fascinating world of quantum levitation",
-    "tags": [
-      "Quantum Levitation",
-      "Science Experiments",
-      "Magnetic Fields",
-      "Superconductors",
-      "Gravity Defiance",
-      "Physics",
-      "Science"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine objects floating in mid-air",
-        "visual_keyword": "magnetic levitation"
-      },
-      {
-        "narration": "This is quantum levitation",
-        "visual_keyword": "superconductor experiments"
-      },
-      {
-        "narration": "Where magnetic fields meet superconductors",
-        "visual_keyword": "magnetic field visuals"
-      },
-      {
-        "narration": "Creating an upward force",
-        "visual_keyword": "force diagram animation"
-      },
-      {
-        "narration": "That counteracts gravity",
-        "visual_keyword": "gravity simulation"
-      },
-      {
-        "narration": "And makes objects levitate",
-        "visual_keyword": "levitating objects"
-      }
-    ],
-    "created_at": "2026-08-09T12:29:50.962780+00:00"
-  },
-  {
     "id": "b66178b2-ec43-481a-b5c7-6bbbf49d38ca",
     "format": "short",
     "niche": "science experiments explained",
