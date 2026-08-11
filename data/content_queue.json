@@ -1,50 +1,5 @@
 [
   {
-    "id": "8386efd4-8bf0-46d1-ad74-da070dde7400",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Frozen Liquids Defy Gravity",
-    "description": "Discover the mind-bending world of superfluids and their ability to flow uphill.",
-    "tags": [
-      "superfluids",
-      "liquid helium",
-      "zero viscosity",
-      "quantum mechanics",
-      "gravity defied",
-      "science experiments",
-      "physics explained",
-      "weird liquids"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "At a temperature near absolute zero, certain liquids defy gravity.",
-        "visual_keyword": "liquid helium"
-      },
-      {
-        "narration": "They can flow uphill and escape their containers.",
-        "visual_keyword": "superfluid flowing"
-      },
-      {
-        "narration": "This phenomenon is known as superfluidity.",
-        "visual_keyword": "superfluidity experiment"
-      },
-      {
-        "narration": "In a superfluid, particles can move without viscosity or friction.",
-        "visual_keyword": "zero viscosity"
-      },
-      {
-        "narration": "This means they can climb walls and ignore gravity.",
-        "visual_keyword": "liquid climbing wall"
-      },
-      {
-        "narration": "The result is a liquid that flows like a living thing.",
-        "visual_keyword": "weird liquid behavior"
-      }
-    ],
-    "created_at": "2026-08-10T19:56:26.935197+00:00"
-  },
-  {
     "id": "2b4a25c3-b2a2-4f17-9e5b-cbb91a3db85a",
     "format": "short",
     "niche": "science experiments explained",
