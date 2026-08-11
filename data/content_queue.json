@@ -1,50 +1,5 @@
 [
   {
-    "id": "2b4a25c3-b2a2-4f17-9e5b-cbb91a3db85a",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Superfluid Chaos",
-    "description": "Explore the bizarre world of superfluids with a single experiment.",
-    "tags": [
-      "superfluids",
-      "science experiments",
-      "liquid helium",
-      "quantum physics",
-      "zero viscosity",
-      "fluid dynamics",
-      "matter states",
-      "cryogenics"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a liquid that defies gravity",
-        "visual_keyword": "Liquid helium pouring"
-      },
-      {
-        "narration": "This is a superfluid",
-        "visual_keyword": "Superfluid flowing up wall"
-      },
-      {
-        "narration": "With zero viscosity it can flow forever",
-        "visual_keyword": "Superfluid swirling vortex"
-      },
-      {
-        "narration": "Creating bizarre effects like quantum vortices",
-        "visual_keyword": "Quantum vortex formation"
-      },
-      {
-        "narration": "And escaping containers like magic",
-        "visual_keyword": "Superfluid escaping container"
-      },
-      {
-        "narration": "Superfluids rewrite the rules of reality",
-        "visual_keyword": "Superfluid in motion"
-      }
-    ],
-    "created_at": "2026-08-10T19:56:32.882169+00:00"
-  },
-  {
     "id": "da41bccd-4f4b-446b-913e-cf34afe71a23",
     "format": "short",
     "niche": "science experiments explained",
