@@ -1,50 +1,5 @@
 [
   {
-    "id": "7f9aacb3-65b2-493c-b362-c2351a690a15",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Levitating Objects",
-    "description": "Discover how quantum levitation is making objects float in mid-air",
-    "tags": [
-      "Quantum Levitation",
-      "Science Experiments",
-      "Floating Objects",
-      "Magnetic Fields",
-      "Superconductors",
-      "Physics",
-      "Quantum Physics",
-      "Levitation"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Objects are floating in mid-air using quantum levitation",
-        "visual_keyword": "quantum levitation experiment"
-      },
-      {
-        "narration": "This phenomenon is achieved by creating a magnetic field",
-        "visual_keyword": "magnetic field animation"
-      },
-      {
-        "narration": "That interacts with superconductors to suspend objects",
-        "visual_keyword": "superconductor material"
-      },
-      {
-        "narration": "The result is mind-bending and seems to defy gravity",
-        "visual_keyword": "floating object closeup"
-      },
-      {
-        "narration": "This breakthrough has potential applications in transportation",
-        "visual_keyword": "maglev train footage"
-      },
-      {
-        "narration": "And it's changing our understanding of the physical world forever",
-        "visual_keyword": "physics equation background"
-      }
-    ],
-    "created_at": "2026-08-12T07:16:20.128739+00:00"
-  },
-  {
     "id": "b590370f-dc80-4055-bc5b-8a34d5ec8178",
     "format": "short",
     "niche": "science experiments explained",
