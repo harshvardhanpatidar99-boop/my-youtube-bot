@@ -1,45 +1,5 @@
 [
   {
-    "id": "b590370f-dc80-4055-bc5b-8a34d5ec8178",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Discover the science behind quantum levitation.",
-    "tags": [
-      "Quantum Levitation",
-      "Science Experiments",
-      "Magnetic Fields",
-      "Superconductors",
-      "Gravity Defiance",
-      "Quantum Physics",
-      "Science Technology"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a world where objects float in mid-air, defying gravity.",
-        "visual_keyword": "Magnetic Levitation"
-      },
-      {
-        "narration": "This is made possible by quantum levitation, a phenomenon where superconductors are suspended above magnetic tracks.",
-        "visual_keyword": "Superconductor Experiments"
-      },
-      {
-        "narration": "The magnetic field creates an upward force, counteracting gravity and allowing the object to float.",
-        "visual_keyword": "Magnetic Field Visualizations"
-      },
-      {
-        "narration": "The result is a frictionless, gravity-defying system that could revolutionize transportation and beyond.",
-        "visual_keyword": "Future Transportation Concepts"
-      },
-      {
-        "narration": "And the best part, it's not just science fiction, it's real and it's happening now.",
-        "visual_keyword": "Quantum Levitation Demonstrations"
-      }
-    ],
-    "created_at": "2026-08-12T07:16:26.179320+00:00"
-  },
-  {
     "id": "de5e4090-cfbc-42da-ae92-6067d97f24ee",
     "format": "short",
     "niche": "science experiments explained",
