@@ -1,51 +1,5 @@
 [
   {
-    "id": "9bf3ff15-f764-4649-a870-0fd5e7fa32de",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Quantum levitation explained in under 1 minute",
-    "tags": [
-      "quantum physics",
-      "magnetic levitation",
-      "superconductors",
-      "science experiments",
-      "gravity defied",
-      "magnets",
-      "super conductivity",
-      "futuristic tech",
-      "quantum levitation"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine objects floating in mid-air, defying gravity's pull",
-        "visual_keyword": "magnetic levitation"
-      },
-      {
-        "narration": "This isn't magic, but quantum physics at work",
-        "visual_keyword": "superconductor materials"
-      },
-      {
-        "narration": "Superconductors can expel magnetic fields, creating an upward force",
-        "visual_keyword": "magnetic field lines"
-      },
-      {
-        "narration": "When cooled, these materials can levitate above a magnetic track",
-        "visual_keyword": "quantum levitation demo"
-      },
-      {
-        "narration": "The future of transportation and engineering relies on this tech",
-        "visual_keyword": "futuristic transportation concepts"
-      },
-      {
-        "narration": "Quantum levitation is real, and it's changing everything",
-        "visual_keyword": "superconductor research lab"
-      }
-    ],
-    "created_at": "2026-08-13T12:45:59.185363+00:00"
-  },
-  {
     "id": "ecc88373-0875-4060-a174-6f38ed01b04e",
     "format": "short",
     "niche": "science experiments explained",
