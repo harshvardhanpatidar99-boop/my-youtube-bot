@@ -1,58 +1,5 @@
 [
   {
-    "id": "ecc88373-0875-4060-a174-6f38ed01b04e",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Defy Gravity",
-    "description": "Explore the mind-bending phenomenon of quantum levitation",
-    "tags": [
-      "Quantum Physics",
-      "Levitation",
-      "Science Experiments",
-      "Gravity",
-      "Magnetic Fields",
-      "Superconductors",
-      "Frictionless Motion",
-      "Incredible Science"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Imagine a world where objects can float in mid-air",
-        "visual_keyword": "Objects Floating"
-      },
-      {
-        "narration": "Welcome to the world of quantum levitation",
-        "visual_keyword": "Quantum Levitation Experiment"
-      },
-      {
-        "narration": "Where superconductors and magnetic fields combine",
-        "visual_keyword": "Superconductor Materials"
-      },
-      {
-        "narration": "To create a frictionless motion that defies gravity",
-        "visual_keyword": "Frictionless Motion"
-      },
-      {
-        "narration": "This phenomenon is not just cool to watch",
-        "visual_keyword": "Scientists Studying"
-      },
-      {
-        "narration": "It has the potential to revolutionize transportation and more",
-        "visual_keyword": "Futuristic Transportation"
-      },
-      {
-        "narration": "And it all starts with a simple yet powerful idea",
-        "visual_keyword": "Scientist Thinking"
-      },
-      {
-        "narration": "That can change everything: gravity is not absolute",
-        "visual_keyword": "Gravity Concept"
-      }
-    ],
-    "created_at": "2026-08-13T12:46:05.322153+00:00"
-  },
-  {
     "id": "995c2c9c-4a5e-436e-afad-974d632fb903",
     "format": "short",
     "niche": "science experiments explained",
