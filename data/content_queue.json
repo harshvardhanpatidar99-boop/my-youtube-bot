@@ -1,50 +1,5 @@
 [
   {
-    "id": "83e9b184-9fb2-4d2c-ad5c-baad97374f2b",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Glowing Aliens",
-    "description": "Discover the science behind bio-luminescence in living organisms",
-    "tags": [
-      "bio-luminescence",
-      "glowing plants",
-      "science experiments",
-      "marine life",
-      "biological lighting",
-      "natural glow",
-      "living organisms",
-      "chemical reactions"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "You're about to meet glowing aliens that thrive in the dark",
-        "visual_keyword": "glowing deep sea fish"
-      },
-      {
-        "narration": "These creatures have a special power",
-        "visual_keyword": "bioluminescent plankton"
-      },
-      {
-        "narration": "They can produce their own light",
-        "visual_keyword": "firefly biology"
-      },
-      {
-        "narration": "Through a chemical reaction called bioluminescence",
-        "visual_keyword": "chemical reaction animation"
-      },
-      {
-        "narration": "It's like having a built-in flashlight",
-        "visual_keyword": "glowing mushroom forest"
-      },
-      {
-        "narration": "And it's a game changer for survival",
-        "visual_keyword": "predator prey relationship"
-      }
-    ],
-    "created_at": "2026-08-14T19:50:38.156339+00:00"
-  },
-  {
     "id": "95bb4c75-cc34-4d99-a7f4-ce1172d513c2",
     "format": "short",
     "niche": "science experiments explained",
