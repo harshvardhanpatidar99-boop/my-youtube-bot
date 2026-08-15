@@ -1,51 +1,5 @@
 [
   {
-    "id": "01587845-6519-4f57-adef-8455f62b2cd1",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Glowing Biology",
-    "description": "Explore the science behind bio-luminescence in living organisms",
-    "tags": [
-      "Bio-Luminescence",
-      "Glowing Plants",
-      "Science Experiments",
-      "Biology",
-      "Nature",
-      "Glowing Animals",
-      "Light Production",
-      "Chemical Reactions",
-      "Living Organisms"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Certain organisms can produce their own light",
-        "visual_keyword": "Glowing Plankton"
-      },
-      {
-        "narration": "This phenomenon is called bio-luminescence",
-        "visual_keyword": "Bioluminescent Fish"
-      },
-      {
-        "narration": "It occurs through a series of chemical reactions",
-        "visual_keyword": "Chemical Reaction Animation"
-      },
-      {
-        "narration": "Resulting in the production of light",
-        "visual_keyword": "Glowing Mushroom"
-      },
-      {
-        "narration": "This process is used for communication and defense",
-        "visual_keyword": "Firefly Flashing"
-      },
-      {
-        "narration": "And it's a remarkable example of nature's ingenuity",
-        "visual_keyword": "Glowing Forest"
-      }
-    ],
-    "created_at": "2026-08-14T19:50:32.146631+00:00"
-  },
-  {
     "id": "83e9b184-9fb2-4d2c-ad5c-baad97374f2b",
     "format": "short",
     "niche": "science experiments explained",
