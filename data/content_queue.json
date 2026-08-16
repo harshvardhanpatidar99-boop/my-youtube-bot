@@ -1,50 +1,5 @@
 [
   {
-    "id": "1b3bb7c0-f92e-4419-b343-836fc5085590",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Exploding Droplets",
-    "description": "Science experiment reveals the secret behind dancing droplets",
-    "tags": [
-      "science experiments",
-      "dancing droplets",
-      "non-newtonian fluids",
-      "fluid dynamics",
-      "surface tension",
-      "chemistry",
-      "physics",
-      "liquid behavior"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Droplets can explode on impact",
-        "visual_keyword": "Slow Motion Liquid"
-      },
-      {
-        "narration": "This is due to surface tension",
-        "visual_keyword": "Microscope Water Surface"
-      },
-      {
-        "narration": "Which affects how liquids behave",
-        "visual_keyword": "Non Newtonian Fluid"
-      },
-      {
-        "narration": "Under certain conditions they can dance",
-        "visual_keyword": "Droplet Movement Time Lapse"
-      },
-      {
-        "narration": "By responding to external forces uniquely",
-        "visual_keyword": "Vibrating Liquid Surface"
-      },
-      {
-        "narration": "The result is an explosive display of physics in action",
-        "visual_keyword": "High Speed Camera"
-      }
-    ],
-    "created_at": "2026-08-16T06:29:22.801138+00:00"
-  },
-  {
     "id": "5421db56-1b02-4825-9fce-e8a505244bab",
     "format": "short",
     "niche": "science experiments explained",
