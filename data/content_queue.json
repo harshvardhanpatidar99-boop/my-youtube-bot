@@ -1,50 +1,5 @@
 [
   {
-    "id": "5421db56-1b02-4825-9fce-e8a505244bab",
-    "format": "short",
-    "niche": "science experiments explained",
-    "title": "Exploding Droplets",
-    "description": "Witness the fascinating science behind dancing droplets",
-    "tags": [
-      "dancing droplets",
-      "science experiments",
-      "fluid dynamics",
-      "surface tension",
-      "chemistry",
-      "physics",
-      "droplet behavior",
-      "science explained"
-    ],
-    "hook": "",
-    "scenes": [
-      {
-        "narration": "Droplets can explode when given the right trigger",
-        "visual_keyword": "Close up water droplet"
-      },
-      {
-        "narration": "This phenomenon is caused by surface tension",
-        "visual_keyword": "Surface tension illustration"
-      },
-      {
-        "narration": "When disrupted, the droplet quickly expands and contracts",
-        "visual_keyword": "Droplet explosion slow motion"
-      },
-      {
-        "narration": "Creating a shockwave that can be seen with the naked eye",
-        "visual_keyword": "Shockwave visual effect"
-      },
-      {
-        "narration": "The science behind dancing droplets is both beautiful and complex",
-        "visual_keyword": "Droplet behavior experiment"
-      },
-      {
-        "narration": "And can be harnessed to create incredible technological advancements",
-        "visual_keyword": "Droplet technology innovation"
-      }
-    ],
-    "created_at": "2026-08-16T06:29:28.745071+00:00"
-  },
-  {
     "id": "a75be918-b6ad-45bb-96b6-4f67580086d0",
     "format": "short",
     "niche": "science experiments explained",
